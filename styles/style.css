@@ -1,0 +1,253 @@
+body{
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.first-container{
+    display: flex;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.detail-div{
+    flex: 1;
+    align-content: center;
+    padding-left: 30px;
+}
+
+.chef-div{
+    width: 600px;
+    margin-right: -30px;
+    background: linear-gradient(white, rgb(214, 241, 245));
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}
+
+.everyone-div{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.lorem-div{
+    font-size: 1rem;
+    color: gray;
+    margin-bottom: 20px;
+
+}
+
+.learn-more-button{
+    background-color: black;
+    color: white;
+    border-style: none;
+    border-radius: 12px;
+    padding: 15px 25px;
+    margin-top: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.chef-pic{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: -50px;
+    margin-bottom: -50px;
+}
+
+/*******************/
+.second-container{
+    background: linear-gradient(white, rgb(214, 241, 245));
+    margin: 0px 20px 20px 20px;
+    border-radius: 10px;
+}
+
+.check-div{
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.check-text-div{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.check-lorem-div{
+    font-size: 1rem;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.twitte-container{
+    justify-content: space-around;
+    display: flex;
+    gap: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 100px;
+}
+
+.twitte{
+    width: 400px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+
+.compte-info{
+    display: flex;
+    padding-top: 5px;
+
+}
+
+.profil-pic-div{
+    padding-left: 10px;
+}
+
+
+.profil-pic{
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 22px;
+}
+
+.compte-details{
+    margin-left: 5px;
+
+}
+
+.compte-name-badge{
+    display: flex;
+
+}
+
+.compte-name{
+    font-weight: bold;
+    margin-right: 3px;
+    margin-bottom: 1px;
+    vertical-align: top;
+}
+
+.compte-desc{
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.verify-logo{
+    width: 15px;
+    height: 15px;
+}
+
+.compte-details{
+    align-content: center;
+}
+
+
+.twitte-media-pic{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.actions{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.left-section{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    padding-left: 10px;
+}
+
+.right-section{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    padding-right: 10px;
+
+
+}
+
+.icon-insta-assembly{
+    width: 25px;
+    cursor: pointer;
+}
+
+.share-insta-btn{
+    background-color: black;
+    color: white;
+    border-style: none;
+    border-radius: 12px;
+    padding: 15px 25px;
+    margin-top: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.share-insta-div{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.insta-icon{
+    width: 25px;
+    margin-left: 10px;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.section-like{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.div-likes{
+    display: flex;
+    
+}
+
+.liked-profil-div{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.liked-profil{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.bof{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: gray;
+}
+
